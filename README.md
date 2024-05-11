@@ -73,10 +73,8 @@ The following are steps to create your api documentation:
 Create a `.yaml` file.
 - Write your documentation in the file.
  No need to set up Swagger-related things in `server.ts` again.
-:smile:  You must know that YAML strictly follows indentations
-#### Deployed link will go here
-
-#### On render link will go here
+ :smile:You must know that YAML strictly follows indentation
+### Deployed_link: :smile:
 ## Licensing
 [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). See the [LICENSE](LICENSE) file for detail
