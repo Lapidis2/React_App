@@ -2,10 +2,9 @@
 # e-commerce-crafters-bn :muscle:
 Crafter's backend repo
 [![GitHub](https://badgen.net/badge/icon/github?icon=github&label)](https://github.com)
-### Table of content
-- [e-commerce-crafters-bn :muscle:](#e-commerce-crafters-bn-muscle)
-    - [Table of content](#table-of-content)
-    - [Project Overview](#project-overview)
+
+- Table of content
+   - [Project Overview](#project-overview)
     - [Technology used](#technology-used)
   - [Using the project](#using-the-project)
     - [Prerequisites](#prerequisites)
