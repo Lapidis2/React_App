@@ -13,10 +13,17 @@ In our project we developed an ecommerce application which is a platform where b
 
 ### Technology used 
 
-* Node.js
+* Node.js: ![Node.js](https://img.shields.io/badge/-Node.js-000000?style=flat&logo=node.js)
 * Express
-* Postgres Database
-* Sequelize ORM
+* Postgres Database: [![PostgreSQL](https://img.shields.io/badge/database-PostgreSQL-blue)](https://www.postgresql.org/)
+* Sequelize ORM: [![Sequelize](https://img.shields.io/badge/ORM-Sequelize-orange)](https://sequelize.org/)
+* Testing by Jest:[![Jest](https://img.shields.io/badge/testing-Jest-red)](https://jestjs.io/)
+
+
+
+
+
+
 
 ## Using the project
 
@@ -55,11 +62,12 @@ To contribute to this project:
 
 1. Then you can commit any changes you made by: `git commit -m "your commit message"`
 2. Push your changes to the branch you created `git push origin your-new-branch-name`
-3. create a pull request and wait for review form other collabolators
+3. create a pull request and wait for review from other collabolators
 
 ## Licensing
 
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). See the [LICENSE](LICENSE) file for details.
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). See the [LICENSE](LICENSE) file for detail
 
-[def]: #atlp-e-commerce-project
-[def2]: #atlp-e-commerce-project
+#### Deployed link will go here
+
+#### On render link will go here
