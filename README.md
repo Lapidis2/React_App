@@ -13,11 +13,11 @@ Crafter's backend repo
     - [Documentation](#documentation)
     - [Deployed\_link:](#deployed_link)
   - [Licensing](#licensing)
-### Project Overview
+### 1. Project Overview
 
 In our project we developed an ecommerce application which is a platform where buyers and sellers meet to interact. Each Seller will be able to register, post their products, and fully manage their stock. Buyers will be able to see all the products on the platform, add and remove products to their shopping carts, and buy from any seller where they will be able to pay via the platform.
 
-### Technology used 
+### 2. Technology used 
 
 * Node.js: ![Node.js](https://img.shields.io/badge/-Node.js-000000?style=flat&logo=node.js)
   
@@ -30,18 +30,18 @@ In our project we developed an ecommerce application which is a platform where b
 * Testing by Jest:[![Jest](https://img.shields.io/badge/testing-Jest-red)](https://jestjs.io/)
 
 
-## Using the project
+## 3.Using the project
 
   For those who are interested to use it locally,he/she is required the following:
 
-### Prerequisites
+### * Prerequisites
 
 - Node.js
 - Packages
 - Postgres database
 - Git
 
-### Installation
+### *Installation
 
 1. Clone the repository from github https://github.com/atlp-rwanda/e-commerce-crafters-bn.git
 2. Run `npm install` to install all package dependencies
@@ -55,7 +55,7 @@ In our project we developed an ecommerce application which is a platform where b
    `npx sequelize-cli db:seed:all`
 5. Run the project using this command `npm start`
 
-## Contribution
+## 4.Contribution
 
 To contribute to this project:
 
@@ -70,7 +70,7 @@ To contribute to this project:
 1. Then you can commit any changes you made by: `git commit -m "your commit message"`
 2. Push your changes to the branch you created `git push origin your-new-branch-name`
 3. create a pull request and wait for review from other collabolators
-###  Documentation 
+###  5.Documentation 
 ![Swagger Badge](https://img.shields.io/badge/Swagger-85EA2D?logo=swagger&logoColor=000&style=for-the-badge)
 The following are steps to create your api documentation:
 - Navigate to the location `src/docs`.
@@ -79,7 +79,7 @@ Create a `.yaml` file.
  No need to set up Swagger-related things in `server.ts` again. <br>:warning:
  You must know that YAML strictly follows indentation
 ### Deployed_link:
-## Licensing
+## 6.Licensing
 [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). See the [LICENSE](LICENSE) file for detail
 
