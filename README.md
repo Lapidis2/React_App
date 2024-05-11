@@ -1,4 +1,5 @@
-## ATLP E-COMMERCE PROJECT
+## ATLP E-COMMERCE PROJECT :smile:
+[![GitHub](https://badgen.net/badge/icon/github?icon=github&label)](https://github.com)
 ### Table of content
   - [Project Overview](#project-overview)
   - [Technology used](#technology-used)
@@ -6,6 +7,7 @@
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
 - [Contribution](#contribution)
+- [Documentation](#Documentation)
 - [Licensing](#licensing)
 ### Project Overview
 
@@ -14,15 +16,14 @@ In our project we developed an ecommerce application which is a platform where b
 ### Technology used 
 
 * Node.js: ![Node.js](https://img.shields.io/badge/-Node.js-000000?style=flat&logo=node.js)
-* Express
+  
+* Express: ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?logo=express&logoColor=%2361DAFB&style=for-the-badge)
+  
 * Postgres Database: [![PostgreSQL](https://img.shields.io/badge/database-PostgreSQL-blue)](https://www.postgresql.org/)
+  
 * Sequelize ORM: [![Sequelize](https://img.shields.io/badge/ORM-Sequelize-orange)](https://sequelize.org/)
+  
 * Testing by Jest:[![Jest](https://img.shields.io/badge/testing-Jest-red)](https://jestjs.io/)
-
-
-
-
-
 
 
 ## Using the project
@@ -40,13 +41,15 @@ In our project we developed an ecommerce application which is a platform where b
 
 1. Clone the repository from github https://github.com/atlp-rwanda/e-commerce-crafters-bn.git
 2. Run `npm install` to install all package dependencies
-3. Createing a `.env` file and get the contents of `.env.example` file and edit them.
-4. To run migrations into Postgres use the following command:
+3. Copy the environment configuration:
+    `cp .env.example .env`
+     you can update the values of .env file with yours.
+3. To run migrations into Postgres use the following command:
    `npx sequelize-cli db:migrate`
     `sequelize-cli`: This refers to the Sequelize Command Line Interface (CLI), which provides commands for interacting with Sequelize, including creating migrations, models, seeders, and running migrations.
-6. To run seeders into Postgres use the following command:
+4. To run seeders into Postgres use the following command:
    `npx sequelize-cli db:seed:all`
-7. Run the project using this command `npm start`
+5. Run the project using this command `npm start`
 
 ## Contribution
 
@@ -63,11 +66,19 @@ To contribute to this project:
 1. Then you can commit any changes you made by: `git commit -m "your commit message"`
 2. Push your changes to the branch you created `git push origin your-new-branch-name`
 3. create a pull request and wait for review from other collabolators
-
-## Licensing
-
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). See the [LICENSE](LICENSE) file for detail
-
+###  Documentation 
+![Swagger Badge](https://img.shields.io/badge/Swagger-85EA2D?logo=swagger&logoColor=000&style=for-the-badge)
+The following are steps to create your api documentation:
+- Navigate to the location `src/docs`.
+Create a `.yaml` file.
+- Write your documentation in the file.
+ No need to set up Swagger-related things in `server.ts` again.
+:warning:  You must know that YAML strictly follows indentations
 #### Deployed link will go here
 
 #### On render link will go here
+## Licensing
+[![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). See the [LICENSE](LICENSE) file for detail
+
+
