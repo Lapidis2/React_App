@@ -1,14 +1,19 @@
-## ATLP E-COMMERCE PROJECT :muscle:
+## ATLP Team Project 
+# e-commerce-crafters-bn :muscle:
+Crafter's backend repo
 [![GitHub](https://badgen.net/badge/icon/github?icon=github&label)](https://github.com)
 ### Table of content
-  - [Project Overview](#project-overview)
-  - [Technology used](#technology-used)
-- [Using the project](#using-the-project)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-- [Contribution](#contribution)
-- [Documentation](#Documentation)
-- [Licensing](#licensing)
+- [e-commerce-crafters-bn :muscle:](#e-commerce-crafters-bn-muscle)
+    - [Table of content](#table-of-content)
+    - [Project Overview](#project-overview)
+    - [Technology used](#technology-used)
+  - [Using the project](#using-the-project)
+    - [Prerequisites](#prerequisites)
+    - [Installation](#installation)
+  - [Contribution](#contribution)
+    - [Documentation](#documentation)
+    - [Deployed\_link:](#deployed_link)
+  - [Licensing](#licensing)
 ### Project Overview
 
 In our project we developed an ecommerce application which is a platform where buyers and sellers meet to interact. Each Seller will be able to register, post their products, and fully manage their stock. Buyers will be able to see all the products on the platform, add and remove products to their shopping carts, and buy from any seller where they will be able to pay via the platform.
