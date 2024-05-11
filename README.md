@@ -72,7 +72,7 @@ The following are steps to create your api documentation:
 - Navigate to the location `src/docs`.
 Create a `.yaml` file.
 - Write your documentation in the file.
- No need to set up Swagger-related things in `server.ts` again. :smile:
+ No need to set up Swagger-related things in `server.ts` again. <br>:smile:
  You must know that YAML strictly follows indentation
 ### Deployed_link:
 ## Licensing
