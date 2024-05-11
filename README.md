@@ -1,4 +1,4 @@
-## ATLP E-COMMERCE PROJECT :smile:
+## ATLP E-COMMERCE PROJECT :muscle:
 [![GitHub](https://badgen.net/badge/icon/github?icon=github&label)](https://github.com)
 ### Table of content
   - [Project Overview](#project-overview)
