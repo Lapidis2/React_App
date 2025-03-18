@@ -1,0 +1,205 @@
+.form{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 7px;
+}
+.form input{
+	padding: 7px 13px;
+	border-radius: 10px;
+	flex-grow: .5;
+	box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    max-width: 400px;
+}
+.form button{
+	padding: 7px 13px;
+	border-radius: 10px;
+	background-color:black;
+	color: white;
+	border: none;
+	cursor: pointer;
+	box-shadow: 0 0 5px rgba(0,0,0,0.2);
+	
+}
+.form button:hover{
+	background-color: white;
+	color: black;
+	cursor: pointer;
+}
+
+
+.formContainer{
+	width: 100%;
+	max-width: 400px;
+}
+.sign-up{
+	font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+.inputGroup {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.inputGroup label {
+    font-weight: 500;
+    color: #555;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.inputGroup input {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 90px;
+    font-size: 14px;
+    transition: border-color 0.3s;
+}
+
+.inputGroup input:focus {
+    border-color: #1a73e8;
+    outline: none;
+}
+
+
+.submitBtn {
+    width: 50%;
+    background-color: #1a73e8;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 90px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.submitBtn:hover {
+    background-color: #1558c7;
+
+}
+.signUpForm {
+    background: rgb(239, 232, 232);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.favorite{
+	background: rgb(239, 232, 232);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.recipeContainer {
+	background-color: #f9f9f9; 
+	border: 2px solid #4caf50; 
+	border-radius: 12px;
+	padding: 16px; /* Adequate padding inside */
+	text-align: center; /* Center-align text */
+	max-width: 400px; /* Restrict width for better readability */
+	margin: 20px auto; /* Center it in the container */
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+	transition: all 0.3s ease-in-out; /* Smooth hover effect */
+  }
+  
+  .recipeContainer h4 {
+	font-size: 1.5rem;
+	color: #333; /* Darker color for better readability */
+	font-weight: bold;
+  }
+  
+  .recipeContainer p {
+	font-size: 1rem;
+	color: #666; /* Slightly lighter text color */
+  }
+  
+  .recipeContainer button {
+	background-color: #4caf50; /* Green button to match the theme */
+	color: white;
+	border: none;
+	padding: 10px 16px;
+	font-size: 1rem;
+	border-radius: 8px;
+	cursor: pointer;
+	transition: background 0.3s ease-in-out;
+  }
+  
+  .recipeContainer button:hover {
+	background-color: #45a049; /* Darker green on hover */
+  }
+  
+
+  .recipe {
+	background: #fff; /* Clean white background */
+	border: 2px solid #ff9800; /* Orange border for warmth */
+	border-radius: 12px; /* Rounded corners for smooth UI */
+	padding: 16px; /* Enough padding for spacing */
+	text-align: left; /* Align text for readability */
+	max-width: 500px; /* Restrict width for a neat layout */
+	margin: 20px auto; /* Center it */
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+	transition: all 0.4s ease-in-out; /* Smooth transition effect */
+  }
+  
+  .recipe h2 {
+	font-size: 1.8rem;
+	color: #e65100; /* Darker orange for contrast */
+	font-weight: bold;
+	text-align: center;
+  }
+  
+  .recipe p {
+	font-size: 1rem;
+	color: #444; /* Slightly dark text for readability */
+	text-align: center;
+	font-style: italic;
+  }
+  
+  .recipe ol {
+	padding-left: 20px;
+  }
+  
+  .recipe li {
+	font-size: 1rem;
+	color: #333;
+	margin: 8px 0;
+	line-height: 1.5;
+  }
+  
+  .toggleButton {
+	display: block;
+	background-color: #ff9800; /* Orange button to match recipe theme */
+	color: white;
+	border: none;
+	padding: 10px 16px;
+	font-size: 1rem;
+	border-radius: 8px;
+	cursor: pointer;
+	text-align: center;
+	margin: 10px auto;
+	transition: background 0.3s ease-in-out;
+  }
+  
+  .toggleButton:hover {
+	background-color: #e68900; /* Darker orange on hover */
+  }
+  
+  /* Hide recipe by default */
+  .hidden {
+	display: none;
+  }
+  .centerContainer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	width: 100%;
+	padding: 20px;
+  }
+  

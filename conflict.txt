@@ -1,9 +1,0 @@
-this is the added line for creating confa-flip-vertical
-I want to delete this line
-Peter is the first in class
-this is the conflict i made 
-removed some lines
-hello world old code is comming to cause confli
-new lapidis is added
-
-
